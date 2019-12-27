@@ -21,3 +21,23 @@ print(output)
 
 
 
+
+
+
+
+
+
+
+#get information from customer
+Fname = input("What is your first name? ")
+
+Lname = input("What is your last name? ")
+
+Phone = input("What is your phone number? ")
+
+Zip = input("What is your zip code? ")
+
+output = "Your first name is {} and your last name is {}. Your phone number is {} and your zip code is {}.". format(Fname, Lname, Phone, Zip)
+
+print(output)
+
