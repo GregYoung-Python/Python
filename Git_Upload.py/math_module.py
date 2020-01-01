@@ -58,3 +58,27 @@ Type "help", "copyright", "credits" or "license()" for more information.
 >>> math.log2(8)
 3.0
 >>> 
+
+
+>>> round(2.1)
+2
+>>> import math
+>>> math.ceil(2.1)
+3
+>>> math.copysign(2.0, -1.0)
+-2.0
+>>> math.fabs(100)
+100.0
+>>> math.factorial(12)
+479001600
+
+>>> math.floor(3.1)
+3
+>>> math.ceil(3.1)
+4
+>>> math.isfinite(0.0)
+True
+>>> math.isfinite(1.2)
+True
+>>> math.pow(5,3)
+125.0
