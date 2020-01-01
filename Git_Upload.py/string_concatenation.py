@@ -19,3 +19,12 @@ output = string.format(name, age, city, enjoy, date)
 
 #Print output to screen
 print(output)
+
+
+
+make = input("What is the make of your car?: ").strip().capitalize()
+model = input("What is the model of your car?: ").strip().capitalize()
+year = input("What year is your car?: ").strip()
+color = input("What color is your car?: ").strip().capitalize()
+output = "Thank you for registering your car with us. We have registered your {}, {}, {}, {}, in our system. Have a nice day!".format(year,color,make,model)
+print(output)
