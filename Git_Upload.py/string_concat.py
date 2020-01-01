@@ -28,6 +28,5 @@ Some late visitor entreating entrance at my chamber door;—
 
 
 
-string = "{} {} {} {} {} {} {}".format(start, age, end, time, question, text, raven)
-output = string.format(start,age,end, time, question, text, raven)
+output = "{} {} {} {} {} {} {}".format(start, age, end, time, question, text, raven)
 print(output)
