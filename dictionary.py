@@ -57,3 +57,21 @@ dict_items([('Bob', 25), ('Dan', 33), ('Susan', 41), ('Sally', 22), ('Mary', 20)
 >>> students.items()
 dict_items([('Bob', 25), ('Dan', 33), ('Susan', 41), ('Sally', 22), ('Fred', 25)])
 >>> 
+
+#dictionary inside of a dictionary
+
+students = {
+                  "Bob": {"id": "ID0001", "age": 22, "grade": "A"},
+                  "Dan":{"id": "ID0002", "age": 27, "grade": "B"},
+                  "Susan":{"id": "ID0003", "age": 31, "grade": "C"},
+                  "Sally":{"id": "ID0004", "age": 33, "grade": "D"},
+                  "Mary":{"id":"ID0005", "age": 25, "grade": "E"},
+                  "Alice":{"id":"ID0006", "age":36, "grade": "A"}
+            }
+
+print(students["Bob"]["id"], students["Bob"]["age"], students["Bob"]["grade"])
+print(students["Dan"]["id"], students["Dan"]["age"], students["Dan"]["grade"])
+print(students["Susan"]["id"], students["Susan"]["age"], students["Susan"]["grade"])
+print(students["Sally"]["id"], students["Sally"]["age"], students["Sally"]["grade"])
+print(students["Mary"]["id"], students["Mary"]["age"], students["Mary"]["grade"])
+print(students["Alice"]["id"], students["Alice"]["age"], students["Alice"]["grade"])  
