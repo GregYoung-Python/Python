@@ -44,7 +44,31 @@ else:
     
     
 
+wt_1 = input("What is the weight of wt_1?: ")
+wt_2 = input ("What is the weight of wt_2 ?: ")
 
+if wt_1 > wt_2:
+    print("wt_1 is heavier")
+
+elif wt_1 < wt_2:
+    print("wt_1 is lighter")
+
+else:
+    print("The weights are the same")
+
+
+    num5 = 1000
+    num6 = 2000
+    num7 = 3000
+    
+    if num6 < num5:
+        print("num6 is less than num5")
+        
+    elif num6 > num7:
+        print("num6 is greater than num7")
+
+    else:
+        print("num6 is between num5 and num7")
 
 
 
