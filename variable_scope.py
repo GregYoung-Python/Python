@@ -26,4 +26,12 @@ f4()
 print(b)
 print(a)
 
+#change the global value inside the function
+
+def f5():
+    global a
+    a = 300
+    print(a)
+f5()
+print(a)
 
